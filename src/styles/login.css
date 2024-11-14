@@ -1,0 +1,163 @@
+/* login.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000; /* Black background */
+}
+
+.login-form {
+    background-color: #1a1a1a; /* Dark gray for form background */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.12); /* Light white shadow */
+    max-width: 400px;
+    width: 100%;
+    position: relative; /* Position relative for positioning the slogan */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+}
+
+.login-form:hover {
+    box-shadow: 0 0 0 4px #2a1a36; /* Purple outline on hover */
+}
+
+.login-form h2 {
+    margin-bottom: 30px;
+    color: #ffffff; /* White text */
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    color: #aaaaaa; /* Light gray for labels */
+    font-size: 14px;
+}
+
+.input-group input {
+    padding: 12px;
+    border: 1px solid #333333; /* Darker gray for input border */
+    background-color: #2a2a2a; /* Dark gray input background */
+    color: #ffffff; /* White text */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    border-color: #ffffff; /* White border on focus */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login-button {
+    padding: 12px 20px;
+    background-color: #000000; /* Black button background */
+    color: #ffffff; /* White text */
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #000000; /* Black text on hover */
+}
+
+.forgot-password {
+    color: #aaaaaa; /* Light gray text */
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-prompt {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaaaaa; /* Light gray text */
+}
+
+.signup-prompt a {
+    color: #ffffff; /* White link text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+.login-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    filter: grayscale(100%); /* Convert image to grayscale */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Logo Styles */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Slogan Styles */
+.slogan {
+    position: absolute;
+    right: -220px; /* Adjust based on your design */
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px; /* Adjust based on your design */
+    color: #ffffff; /* White text */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-form {
+        margin-right: 0;
+    }
+
+    .login-image img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+/* ParkingHistory.css */
+.parking-history-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 5rem auto; /* Centers horizontally and adds top spacing */
+    padding: 2rem;
+    background-color: #f7f0f0; /* Dark gray background for the box */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Brighter white shadow */
+    color: #ffffff; /* White text for readability */
+    text-align: center; /* Center-align text */
+}
+
+.parking-history-container h2 {
+    color: #00ffcc; /* Accent color for the heading */
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 0.5rem;
+}
+
+.parking-history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.parking-history-item {
+    background-color: #917474; /* Slightly lighter gray for each item box */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Brighter shadow for each item */
+}
+
+.parking-history-item p {
+    margin: 0.5rem 0;
+    color: #e0e0e0; /* Light gray text for details */
+}
+
+.parking-history-item p strong {
+    color: #ffffff; /* White color for labels */
+}
+.li
+{
+    color: aliceblue;
+}
